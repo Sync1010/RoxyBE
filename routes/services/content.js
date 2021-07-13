@@ -31,7 +31,7 @@ app.get("/api/pages/fortnite-game", async (req, res) => {
                         videoMute: false,
                         tabTitleOverride: "Roxy",
                         _type: "CommonUI Simple Message MOTD",
-                        title: "Rift!",
+                        title: "Roxy",
                         body: "Welcome To Roxy, In-game with live events, cosmetics, & more",
                         videoLoop: false,
                         videoStreamingEnabled: false,
@@ -83,7 +83,6 @@ app.get("/api/pages/fortnite-game", async (req, res) => {
                 backgrounds: {
                     backgrounds: [
                         {
-                            backgroundimage: 'https://cdn.discordapp.com/attachments/847921831058997289/863976001427996722/RoxyNiteInGameBanner.png',
                             stage: "worldcup",
                             _type: "DynamicBackground",
                             key: "lobby"
